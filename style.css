@@ -780,18 +780,21 @@ body {
   justify-content: space-between;
   height: 70px;
 }
-
-.nav-logo a {
-  font-size: var(--font-size-xl);
-  font-weight: var(--font-weight-bold);
-  color: var(--color-primary);
-  text-decoration: none;
-  transition: color var(--duration-fast) var(--ease-standard);
+/* --------------------------------------------------------*/
+.nav-logo {
+  height: 190px;      /* Suitable height for nav logo */
+  width: auto;       /* Auto width keeps aspect ratio */
+  padding: 10px;     /* Optional: adds spacing around logo */
+  display: flex;     
+  align-items: center;
 }
 
-.nav-logo a:hover {
-  color: var(--color-primary-hover);
+.nav-logo img {
+  height: 100%;
+  width: auto;
+  object-fit: contain;
 }
+
 
 .nav-menu {
   display: flex;
@@ -1553,4 +1556,11 @@ body {
   .contact-form {
     padding: var(--space-20);
   }
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
 }
