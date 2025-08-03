@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suraj Kumar Dev </title>
+    <meta name="description" content="Portfolio of Suraj Kumar Dev, a passionate Computer Science student at Chandigarh University specializing in Java, C++, and full-stack web development.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Suraj Dev</a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-controls">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <span class="theme-icon">🌙</span>
+                </button>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-image">
+                    <!-- Add profile image from assets/profile.jpg -->
+                    <div class="profile-placeholder">
+                        <span class="profile-initial">S</span>
+                    </div>
+                </div>
+                <h1 class="hero-title">
+                    Hi, I'm <span class="typed-text" id="typed-text"></span>
+                    <span class="cursor" id="cursor">|</span>
+                </h1>
+                <p class="hero-subtitle">Computer Science Student at Chandigarh University</p>
+                <p class="hero-description">
+                    Passionate about coding and technology, specializing in Java and C++ development 
+                    with experience in full-stack web applications and AI integration.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn--primary">View My Work</a>
+                    <a href="#contact" class="btn btn--outline">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-scroll">
+                <span>Scroll down</span>
+                <div class="scroll-arrow"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know me better</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Education & Achievements</h3>
+                    <div class="education-item">
+                        <h4>B.Tech in Computer Science</h4>
+                        <p class="university">Chandigarh University</p>
+                        <p class="year">3rd Year Student | 2022 - 2026</p>
+                        <div class="cgpa">
+                            <span class="cgpa-label">Current CGPA:</span>
+                            <span class="cgpa-value">8.3/10</span>
+                        </div>
+                    </div>
+                    <p class="about-description">
+                        I'm a dedicated computer science student with a passion for creating innovative 
+                        solutions through code. My journey in technology has led me to explore various 
+                        domains including web development, artificial intelligence, and software engineering. 
+                        I believe in learning by doing and have built several projects that showcase my 
+                        technical skills and creativity.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">8.3</div>
+                        <div class="stat-label">CGPA</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">3</div>
+                        <div class="stat-label">Major Projects</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">2+</div>
+                        <div class="stat-label">Years Learning</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <p class="section-subtitle">Technologies I work with</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Java</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">C++</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Web Technologies</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">HTML/CSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Technologies</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">AI/ML</span>
+                        <span class="skill-tag">API Integration</span>
+                        <span class="skill-tag">Web Development</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">OpenAI API</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Some of my recent work</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <!-- Add project images from assets/projects/zerodha-clone.jpg -->
+                        <div class="project-placeholder">
+                            <span class="project-icon">📈</span>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" target="_blank">View Demo</a>
+                                <a href="#" class="project-link" target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Zerodha Clone</h3>
+                        <p class="project-description">
+                            A comprehensive stock trading platform clone featuring real-time market data, 
+                            portfolio management, and trading functionalities.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-features">
+                            <span class="feature">Real-time data</span>
+                            <span class="feature">Portfolio tracking</span>
+                            <span class="feature">Trading interface</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <!-- Add project images from assets/projects/zoom-clone.jpg -->
+                        <div class="project-placeholder">
+                            <span class="project-icon">📹</span>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" target="_blank">View Demo</a>
+                                <a href="#" class="project-link" target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Zoom Clone</h3>
+                        <p class="project-description">
+                            Video conferencing application with real-time communication, screen sharing, 
+                            and multi-user support for seamless virtual meetings.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">WebRTC</span>
+                        </div>
+                        <div class="project-features">
+                            <span class="feature">Video calls</span>
+                            <span class="feature">Screen sharing</span>
+                            <span class="feature">Chat functionality</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <!-- Add project images from assets/projects/ai-chat.jpg -->
+                        <div class="project-placeholder">
+                            <span class="project-icon">🤖</span>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" target="_blank">View Demo</a>
+                                <a href="#" class="project-link" target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">AI Chat Model</h3>
+                        <p class="project-description">
+                            Intelligent chatbot powered by OpenAI's GPT-4o mini API with natural 
+                            language processing capabilities and responsive design.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">OpenAI API</span>
+                        </div>
+                        <div class="project-features">
+                            <span class="feature">Natural language processing</span>
+                            <span class="feature">API integration</span>
+                            <span class="feature">Responsive design</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's connect and collaborate</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>suraj.dev@example.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p>+91 XXXXXXXXXX</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>Chandigarh, India</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" id="name" name="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Suraj Kumar Dev</h3>
+                    <p>Computer Science Student passionate about creating innovative solutions through code.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="https://linkedin.com/in/surajkumardev" target="_blank" class="social-link">LinkedIn</a>
+                    <a href="https://github.com/surajkumardev" target="_blank" class="social-link">GitHub</a>
+                    <a href="mailto:suraj.dev@example.com" class="social-link">Email</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Suraj Kumar Dev. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
