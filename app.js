@@ -1,5 +1,3 @@
-// Portfolio JavaScript for Suraj Kumar Dev
-
 // DOM Elements
 const themeToggle = document.getElementById('theme-toggle');
 const hamburger = document.getElementById('hamburger');
