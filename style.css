@@ -787,6 +787,7 @@ body {
   padding: 10px;     /* Optional: adds spacing around logo */
   display: flex;     
   align-items: center;
+  
 }
 
 .nav-logo img {
@@ -1571,8 +1572,9 @@ body {
 }
 
 .profile-image {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     object-fit: cover;
+    background-size: cover;
 }
